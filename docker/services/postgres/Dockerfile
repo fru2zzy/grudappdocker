@@ -1,0 +1,4 @@
+FROM postgres:12-alpine
+ENV POSTGRES_USER admin
+ENV POSTGRES_DB test
+ENV POSTGRES_PASSWORD admin
